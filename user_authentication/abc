@@ -1,0 +1,72 @@
+<script>
+  function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+
+  const csrftoken = getCookie('csrftoken');
+
+  document.getElementById('otp-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+
+    fetch('{% url "login-otp" %}', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': csrftoken
+      },
+      body: JSON.stringify({ email: email })
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      if (data.status === 200) {
+        document.getElementById('login-response').innerHTML = 'OTP sent to your email.';
+      } else {
+        document.getElementById('login-response').innerHTML = `Error: ${data.message}`;
+      }
+    })
+    .catch(error => {
+      document.getElementById('login-response').innerHTML = `Error: ${error.message}`;
+    });
+  });
+
+  document.getElementById('login-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+    const otp = document.getElementById('otp').value;
+
+    fetch('{% url "login" %}', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': csrftoken
+      },
+      body: JSON.stringify({ email: email, otp: otp })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === 200) {
+        window.location.href = '{% url "home" %}';
+      } else {
+        document.getElementById('login-response').innerHTML = `Error: ${data.message}`;
+      }
+    })
+    .catch(error => {
+      document.getElementById('login-response').innerHTML = `Error: ${error.message}`;
+    });
+  });
+</script>

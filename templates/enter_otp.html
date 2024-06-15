@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter OTP and Login</title>
+</head>
+<body>
+
+<form id="login-form">
+    {% csrf_token %}
+    <div class="form-group">
+        <h1>Login</h1>
+        <p>Please enter the OTP sent to your email.</p>
+        <hr>
+
+        <input type="hidden" name="email" id="email" value="{{ email }}">
+        <label for="otp"><b>OTP</b></label>
+        <input type="text" placeholder="Enter OTP" name="otp" id="otp" required>
+        <hr>
+        <div id="login-response"></div>
+        <br><br>
+
+        <button type="submit" class="loginbtn" id="login-btn">Login</button>
+    </div>
+</form>
+
+<script>
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    const csrftoken = getCookie('csrftoken');
+
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const email = document.getElementById('email').value;
+        const otp = document.getElementById('otp').value;
+
+        fetch('{% url "login" %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrftoken
+            },
+            body: JSON.stringify({ email: email, otp: otp })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 200) {
+                window.location.href = '{% url "home" %}';
+            } else {
+                document.getElementById('login-response').innerHTML = `Error: ${data.message}`;
+            }
+        })
+        .catch(error => {
+            document.getElementById('login-response').innerHTML = `Error: ${error.message}`;
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+2024-06-09 15:54:31,305 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : anshu.sahay23@gmail.com saved
+2024-06-09 15:54:31,305 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 137078 generated
+2024-06-09 15:54:31,305 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 137078
+2024-06-09 15:54:31,306 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-09 15:59:31.306008
+2024-06-09 15:54:31,397 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-09 15:59:31.306008
+2024-06-09 15:54:34,604 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1

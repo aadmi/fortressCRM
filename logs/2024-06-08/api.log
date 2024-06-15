@@ -1,0 +1,120 @@
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : amitesh.sahay@yahoo.com saved
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 405466
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 290159 generated
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 290159
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:25:52.354804
+2024-06-08 13:20:52,354 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 13:20:52,445 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 13:20:52,445 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:25:52.354804
+2024-06-08 13:20:52,445 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 13:20:52,445 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '290159'}
+2024-06-08 13:20:52,446 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 13:20:56,034 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 13:20:56,034 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 13:20:56,034 - api_logger - DEBUG - helper_functions.py:75 - 9
+2024-06-08 13:30:24,911 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 13:30:24,911 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : amitesh.sahay@yahoo.com saved
+2024-06-08 13:30:24,911 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 13:30:24,911 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 264184
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 795599 generated
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 795599
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:35:24.912252
+2024-06-08 13:30:24,912 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 13:30:25,003 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 13:30:25,003 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:35:24.912252
+2024-06-08 13:30:25,003 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 13:30:25,003 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '795599'}
+2024-06-08 13:30:25,003 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 13:30:28,334 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 13:30:28,334 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 13:30:28,334 - api_logger - DEBUG - helper_functions.py:75 - 9
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : amitesh.sahay@yahoo.com saved
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 846414
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 854973 generated
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 854973
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:51:16.093708
+2024-06-08 13:46:16,093 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 13:46:16,184 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 13:46:16,184 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:51:16.093708
+2024-06-08 13:46:16,184 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 13:46:16,184 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '854973'}
+2024-06-08 13:46:16,184 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 13:46:19,802 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 13:46:19,802 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 13:46:19,802 - api_logger - DEBUG - helper_functions.py:75 - 9
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : priya.sinha0511@gmail.com saved
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 935165
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 13:51:55,519 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 486432 generated
+2024-06-08 13:51:55,520 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 13:51:55,520 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 486432
+2024-06-08 13:51:55,520 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 13:51:55,520 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:56:55.520159
+2024-06-08 13:51:55,520 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 13:51:55,627 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 13:51:55,627 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 13:56:55.520159
+2024-06-08 13:51:55,627 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 13:51:55,627 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '486432'}
+2024-06-08 13:51:55,628 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 13:51:58,884 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 13:51:58,884 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 13:51:58,884 - api_logger - DEBUG - helper_functions.py:75 - 9
+2024-06-08 13:55:23,308 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 13:55:23,308 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : priya.sinha0511@gmail.com saved
+2024-06-08 13:55:23,308 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 13:55:23,308 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 237245
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 661349 generated
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 661349
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 14:00:23.309252
+2024-06-08 13:55:23,309 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 13:55:23,391 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 13:55:23,392 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 14:00:23.309252
+2024-06-08 13:55:23,392 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 13:55:23,392 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '661349'}
+2024-06-08 13:55:23,392 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 13:55:26,403 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 13:55:26,403 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 13:55:26,403 - api_logger - DEBUG - helper_functions.py:75 - 9
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - [this is: Serializers] : amitesh.sahay@yahoo.com saved
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - 11
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - [OTP generated]: 384791
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-08 14:00:14,731 - api_logger - DEBUG - helper_functions.py:75 - [OTP]: 400471 generated
+2024-06-08 14:00:14,732 - api_logger - DEBUG - helper_functions.py:75 - 4
+2024-06-08 14:00:14,732 - api_logger - DEBUG - helper_functions.py:75 - [user.otp] : 400471
+2024-06-08 14:00:14,732 - api_logger - DEBUG - helper_functions.py:75 - 5
+2024-06-08 14:00:14,732 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 14:05:14.732144
+2024-06-08 14:00:14,732 - api_logger - DEBUG - helper_functions.py:75 - 6
+2024-06-08 14:00:14,823 - api_logger - DEBUG - helper_functions.py:75 - 7
+2024-06-08 14:00:14,823 - api_logger - DEBUG - helper_functions.py:75 - [OTP EXPIRATION]: 2024-06-08 14:05:14.732144
+2024-06-08 14:00:14,823 - api_logger - DEBUG - helper_functions.py:75 - 12
+2024-06-08 14:00:14,823 - api_logger - DEBUG - helper_functions.py:75 - [CONTEXT from utils file]: {'otp': '400471'}
+2024-06-08 14:00:14,823 - api_logger - DEBUG - helper_functions.py:75 - 13
+2024-06-08 14:00:18,242 - api_logger - DEBUG - helper_functions.py:75 - 8
+2024-06-08 14:00:18,243 - api_logger - DEBUG - helper_functions.py:75 - Account created successfully. Please verify your email.
+2024-06-08 14:00:18,243 - api_logger - DEBUG - helper_functions.py:75 - 9

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<form id="login-form">
+    {% csrf_token %}
+    <div class="form-group">
+        <h1>Login</h1>
+        <p>Please enter your email and OTP to login.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+        <label for="otp"><b>OTP</b></label>
+        <input type="text" placeholder="Enter OTP" name="otp" id="otp" required>
+        <hr>
+        <br></br>
+
+        <button type="submit" class="loginbtn" id="login-btn">Login</button>
+
+        <div id="login-response"></div>
+    </div>
+</form>
+
+<script>
+  function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+
+  const csrftoken = getCookie('csrftoken');
+
+  document.getElementById('login-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+    const otp = document.getElementById('otp').value;
+
+    fetch('{% url "login" %}', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': csrftoken
+      },
+      body: JSON.stringify({ email: email, otp: otp })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+      return response.json();
+    })
+    .then(data => {
+      if (data.token) {
+        window.location.href = '{% url "home" %}';
+      } else {
+        document.getElementById('login-response').innerHTML = `Error: ${data.error}`;
+      }
+    })
+    .catch(error => {
+      document.getElementById('login-response').innerHTML = `Error: ${error.message}`;
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+2024-06-10 13:18:35,645 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login/'>
+2024-06-10 13:18:37,032 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '932511'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-10 13:18:37,034 - api_logger - DEBUG - helper_functions.py:75 - 1
+2024-06-10 13:18:37,034 - api_logger - DEBUG - helper_functions.py:75 - 2
+2024-06-10 13:18:37,035 - api_logger - DEBUG - helper_functions.py:75 - 3
+2024-06-10 13:18:37,035 - api_logger - DEBUG - helper_functions.py:75 - serializer USER's email : amitesh.sahay@yahoo.com
+2024-06-10 13:18:37,035 - api_logger - DEBUG - helper_functions.py:75 - Exception: User matching query does not exist.

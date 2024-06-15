@@ -1,0 +1,61 @@
+2024-06-15 08:35:44,977 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '179562'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:35:44,979 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:35:44,979 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:35:44,981 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:35:44,981 - api_logger - DEBUG - helper_functions.py:75 - This is a serializers error: {'otp': [ErrorDetail(string='OTP is invalid or expired.', code='invalid')]}
+2024-06-15 08:35:54,885 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-15 08:36:49,876 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '531320'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:36:49,876 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:36:49,876 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:36:49,877 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:36:49,877 - api_logger - DEBUG - helper_functions.py:75 - login view USER : amitesh.sahay@yahoo.com
+2024-06-15 08:47:00,229 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-15 08:47:23,198 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '361018'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:47:23,200 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:47:23,200 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:47:23,201 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:47:23,202 - api_logger - DEBUG - helper_functions.py:75 - login view USER : amitesh.sahay@yahoo.com
+2024-06-15 08:52:04,798 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-15 08:52:42,013 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '900925'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:52:42,015 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:52:42,015 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:52:42,017 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:52:42,017 - api_logger - DEBUG - helper_functions.py:75 - login view USER : amitesh.sahay@yahoo.com
+2024-06-15 08:52:46,629 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '900925'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:52:46,630 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:52:46,630 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:52:46,634 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:52:46,640 - api_logger - DEBUG - helper_functions.py:75 - This is a serializers error: {'otp': [ErrorDetail(string='OTP is invalid or expired.', code='invalid')]}
+2024-06-15 08:53:23,998 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-15 08:53:59,086 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '708490'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 08:53:59,086 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 08:53:59,086 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 08:53:59,087 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 08:53:59,088 - api_logger - DEBUG - helper_functions.py:75 - login view USER : amitesh.sahay@yahoo.com
+2024-06-15 09:03:41,317 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-15 09:04:08,313 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '465530'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 09:04:08,315 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 09:04:08,315 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 09:04:08,316 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 09:04:08,316 - api_logger - DEBUG - helper_functions.py:75 - login view USER : amitesh.sahay@yahoo.com
+2024-06-15 09:04:11,044 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '465530'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-15 09:04:11,044 - api_logger - DEBUG - helper_functions.py:75 - email address from user input: amitesh.sahay@yahoo.com
+2024-06-15 09:04:11,045 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-15 09:04:11,046 - api_logger - DEBUG - helper_functions.py:75 - User's email address from DB: amitesh.sahay@yahoo.com
+2024-06-15 09:04:11,047 - api_logger - DEBUG - helper_functions.py:75 - This is a serializers error: {'non_field_errors': [ErrorDetail(string='Invalid OTP or OTP has expired.', code='authorization')]}

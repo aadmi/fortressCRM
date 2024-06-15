@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+      .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+      .otp {
+            font-size: 24px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Email Verification</h1>
+    <p>Dear User,</p>
+    <p>Thank you for registering. Please enter the following OTP: {{ otp }} to verify your email address:</p>
+    <form id="verify-form">
+        {% csrf_token %}
+        <input type="email" name="email" value="{{ email }}">
+        <input type="text" name="otp" placeholder="Enter OTP" required>
+        <button type="submit">Verify</button>
+    </form>
+    <p>This OTP is valid for 5 minutes.</p>
+    <p>Regards,</p>
+    <p>Fortress Group</p>
+</div>
+
+<script>
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie!== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    document.getElementById('verify-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const email = document.querySelector('input[name="email"]').value;
+        const otp = document.querySelector('input[name="otp"]').value;
+
+        const csrftoken = getCookie('csrftoken');
+
+        fetch('{% url "verify_account" %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrftoken
+            },
+            body: JSON.stringify({ email: email, otp: otp })
+        })
+      .then(response => {
+            return response.json();
+        })
+      .then(data => {
+            console.log(`Data is: ${data}`);
+            console.log(`Data status is: ${data.status}`);
+            if (data.status === 200) {
+                window.location.href = '{% url "success" %}';
+            } else {
+                alert(`Error verifying email: ${data.message}`);
+            }
+        })
+      .catch(error => {
+            alert(`Error verifying email: ${error.message}`);
+        });
+    });
+</script>
+</body>
+</html>

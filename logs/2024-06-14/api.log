@@ -1,0 +1,25 @@
+2024-06-14 13:48:38,216 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login-otp/'>
+2024-06-14 13:52:49,897 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-14 13:52:55,161 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login/'>
+2024-06-14 13:53:16,607 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '164682'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-14 13:53:16,609 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-14 14:01:16,551 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login-otp/'>
+2024-06-14 14:01:32,554 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-14 14:01:37,507 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login/'>
+2024-06-14 14:02:05,076 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '745011'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-14 14:02:05,076 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-14 14:09:27,104 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login-otp/'>
+2024-06-14 14:09:45,189 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-14 14:09:50,163 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login/'>
+2024-06-14 14:10:31,133 - api_logger - DEBUG - helper_functions.py:75 - login view serializers : LoginSerializer(data={'email': 'amitesh.sahay@yahoo.com', 'otp': '135912'}):
+    email = EmailField()
+    otp = CharField()
+2024-06-14 14:10:31,135 - api_logger - DEBUG - helper_functions.py:75 - Starting validation
+2024-06-14 14:28:30,925 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login-otp/'>
+2024-06-14 14:28:54,571 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
+2024-06-14 14:36:53,393 - api_logger - DEBUG - helper_functions.py:75 - login view request : <rest_framework.request.Request: GET '/auth/login-otp/'>
+2024-06-14 14:37:17,473 - api_logger - DEBUG - helper_functions.py:75 - email sent: 1
